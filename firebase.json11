@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "now-ui-dashboard-pro-angular",
+      "public": "dist/now-ui-dashboard-pro-angular",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
